@@ -1,0 +1,34 @@
+table{
+    background-image: url("https://media.istockphoto.com/photos/calculator-picture-id1064427932?k=20&m=1064427932&s=612x612&w=0&h=UYNxueziCf8t_sGcYF-sPDbGqbrXgNE5TVHON1PYI3A=");
+}
+input[type="button"]{
+    transition:0.4s;
+    background-color: aqua; 
+    color: brown;
+}
+input[type="button"]:hover{
+    background-color: tomato;
+    transform: scale(1.2);
+}
+input[type="text"]{
+    background-color: lavender;
+    transition: 0.4s;
+    color: crimson;
+}
+input[type="text"]:hover{
+    background-color: chartreuse;
+    transform: scale(1.1);
+}
+.title{
+    margin-bottom: 10px;
+    text-align:center;
+    width: 200px;
+    color:green;
+    border: solid black 1px;
+    background-color: burlywood;
+    transition: 0.4s;
+    }
+    .title:hover{
+        background-color: cyan;
+        transform: scale(1.1);
+    }
